@@ -26,9 +26,18 @@ You can find the writeup walking you through the project in detail [here](<docs/
 
 ![Alt text](docs/assets/nanojet.jpg)
 
-<video src="docs/assets/chat_demo.mp4" controls title="Title"></video>
+![Alt text](docs/assets/demo.gif)
 
-
+## How is it organised?
+- Dataset found: [here](dataset/workload-queries)
+- Blog and report can be found: [here](docs)
+- Jetson Nano supported components list and user guide: [here](docs/assets)
+- Scripts to generate plots: [here](generate_plots)
+- Which experiments were run?: [here](outputs/README.md)
+- What were the results?: [here](docs/README.md) and [plots](outputs/plots)
+- Raw [outputs](outputs/output_readings)
+- Output processing scripts: [here](outputs/process_outputs)
+- Workloads for jetson nano: [here](workload)
 
 
 ## Notes

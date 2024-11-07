@@ -1,34 +1,3 @@
-# Experiments
-
-1. **Category-Wise Query Submission**:
-    - **Process**: We submitted 100 queries from each category sequentially. Every 0.5 seconds, the following metrics were recorded:
-        1. **CPU and GPU Memory Usage, CPU Utilization**: These metrics were recorded (across all four cores: CPU utilization) for the query process executed through llama.cpp for TinyLlama.
-        2. **System-Wide GPU Utilization**: GPU utilization was monitored while the query execution process was in progress. During data processing, the GPU utilization values used for plots were those that coincided with the same time periods for which per-process readings existed.
-        3. **Per Query Metrics**:
-            1. **Time to First Token**: The duration before the first token appeared.
-            2. **Time Between Tokens**: The time gap observed between the generation of each successive token after the first token had appeared.
-            
-2. **Granular Query Analysis**:
-    - **Process**: We calculated the median length of prompt tokens for each query category and selected one representative query from each category that closely matched the median token length. For each representative query, the same measurements as above were recorded every centisecond (1 centisecond equals 1/100th of a second, corresponding to 100 ticks per second on Ubuntu systems). Recordings were made after a warm-up phase, as discrepancies were found in the CPU usage of complex queries when measurements were taken without warming up. The initial four readings for other queries in each workload were discarded to ensure consistency.
-
-[*Median prompt lengths across categories.*](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdDsqeY3ClqG_fDQicxfLzuX1zX5xwhWpAcpxSiYTZnc9zvKma5ICHlR-ECoj2nvaa7mI02JmSp27XfI2ZdtCqR8OnpBVB3nt8FHZ_Yv_8o2iWfC8JzjSx7X9oib_-WL_9mbv2owEj0WH-CHvSoSJvlr9wk?key=7VKbPIlbOp2wxPlxUTA4Ug)
-
-*Median prompt lengths across categories.*
-
-**Additional Granular Measurements for Special Scenarios**:
-
-For each of the following scenarios, a warm-up phase was included to ensure consistency in measurements.
-
-1. **Task-Oriented Queries**:
-    - **Process**: GPU memory usage was recorded every centisecond for four task-oriented queries. These queries were selected based on an increasing number of tokens in the prompt, with the output token count fixed at 50.
-2. **Total Time Measurement**:
-    - **Process**: The total time taken to complete two queries was recorded—one from the task-oriented workload and one from the contextual workload. These queries were selected to minimize the difference in the number of tokens in the prompt between them.
-3. **Conversational Workload Query**:
-    - **Process**: A single conversational query with a number of prompt tokens equal to the category median was selected. GPU memory usage was recorded over five runs of the same query, with the expected output length increasing incrementally in each run. The output token counts were set to ["10", "50", "120", "230", "400"].
-
-
-
-
 # Analysis
 
 ## Understanding Resource Usage in LLMs
