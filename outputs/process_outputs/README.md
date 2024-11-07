@@ -1,0 +1,2 @@
+## Processing Raw Output and Plotting Results
+The frequency of data recording varied depending on the experiment, ranging from 1 centisecond to 1 second. The processing scripts were designed to clean the raw data files, which contained the resulting query outputs, llama.cpp output readings, and system resource usage readings. All relevant data points across the queries were consolidated into a single processed dataframe. Finally, Plotly was used to generate the graphs for analysis, providing a visual representation of the system's performance metrics.

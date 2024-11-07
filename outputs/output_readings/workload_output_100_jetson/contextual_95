@@ -1,0 +1,329 @@
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 48, 248546), 'uptime': datetime.timedelta(0, 9181, 530000), 'CPU1': 8, 'CPU2': 4, 'CPU3': 7, 'CPU4': 6, 'RAM': 0.40234677567173915, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 9.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.0, 'Temp CPU': 27.0, 'Temp GPU': 26.5, 'Temp PLL': 26.0, 'Temp thermal': 26.0, 'Power thermal': 81, 'Power TOT': 1884, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+pid: 5643
+psutil memory: 0.8999225428034776
+psutil cpu percent: 0.0
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 48, 955474), 'uptime': datetime.timedelta(0, 9181, 530000), 'CPU1': 8, 'CPU2': 4, 'CPU3': 7, 'CPU4': 6, 'RAM': 0.40234677567173915, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 9.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.0, 'Temp CPU': 27.0, 'Temp GPU': 26.5, 'Temp PLL': 26.0, 'Temp thermal': 26.0, 'Power thermal': 81, 'Power TOT': 1884, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3146462331084767, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4739879223602113, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009812205293139632, 4748, 76, 'nvargus-daemon']]
+psutil memory: 3.1101133870869195
+psutil cpu percent: 85.7
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 49, 457017), 'uptime': datetime.timedelta(0, 9182, 530000), 'CPU1': 83, 'CPU2': 10, 'CPU3': 16, 'CPU4': 9, 'RAM': 0.42789878137952647, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 27.1, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.0, 'Temp CPU': 27.0, 'Temp GPU': 26.5, 'Temp PLL': 27.0, 'Temp thermal': 27.5, 'Power thermal': 81, 'Power TOT': 3251, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 82.0, 41638, 45448, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.314613326872137, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4740458015267175, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009811146334337702, 4748, 76, 'nvargus-daemon']]
+psutil memory: 5.508724281944195
+psutil cpu percent: 93.7
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 49, 958735), 'uptime': datetime.timedelta(0, 9182, 530000), 'CPU1': 83, 'CPU2': 10, 'CPU3': 16, 'CPU4': 9, 'RAM': 0.42789878137952647, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 27.1, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.0, 'Temp CPU': 27.0, 'Temp GPU': 26.5, 'Temp PLL': 27.0, 'Temp thermal': 27.5, 'Power thermal': 81, 'Power TOT': 3251, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 82.0, 41638, 45448, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.314613326872137, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4740458015267175, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009811146334337702, 4748, 76, 'nvargus-daemon']]
+psutil memory: 25.064794028897648
+psutil cpu percent: 95.7
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 50, 460202), 'uptime': datetime.timedelta(0, 9183, 530000), 'CPU1': 71, 'CPU2': 24, 'CPU3': 21, 'CPU4': 50, 'RAM': 0.44976220837759695, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 29.0, 'Temp GPU': 27.0, 'Temp PLL': 27.5, 'Temp thermal': 27.75, 'Power thermal': 40, 'Power TOT': 4943, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 114.43298969069163, 265174, 148500, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3145789931455496, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47399411187438667, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.000981007691100298, 4748, 76, 'nvargus-daemon']]
+psutil memory: 26.131850675139003
+psutil cpu percent: 334.9
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 50, 961950), 'uptime': datetime.timedelta(0, 9183, 530000), 'CPU1': 71, 'CPU2': 24, 'CPU3': 21, 'CPU4': 50, 'RAM': 0.44976220837759695, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 29.0, 'Temp GPU': 27.0, 'Temp PLL': 27.5, 'Temp thermal': 27.75, 'Power thermal': 40, 'Power TOT': 4943, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 114.43298969069163, 265174, 148500, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3145789931455496, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47399411187438667, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.000981007691100298, 4748, 76, 'nvargus-daemon']]
+psutil memory: 26.632070432833967
+psutil cpu percent: 354.8
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 51, 463455), 'uptime': datetime.timedelta(0, 9184, 530000), 'CPU1': 77, 'CPU2': 99, 'CPU3': 99, 'CPU4': 99, 'RAM': 0.44992776574420995, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.0, 'Temp CPU': 28.5, 'Temp GPU': 27.0, 'Temp PLL': 27.5, 'Temp thermal': 27.5, 'Power thermal': 121, 'Power TOT': 3842, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 197.96610169498848, 275431, 202004, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3144341146174328, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4739419167663359, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009808997030053676, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.163923473078206
+psutil cpu percent: 355.0
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 51, 964887), 'uptime': datetime.timedelta(0, 9184, 530000), 'CPU1': 77, 'CPU2': 99, 'CPU3': 99, 'CPU4': 99, 'RAM': 0.44992776574420995, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.0, 'Temp CPU': 28.5, 'Temp GPU': 27.0, 'Temp PLL': 27.5, 'Temp thermal': 27.5, 'Power thermal': 121, 'Power TOT': 3842, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 197.96610169498848, 275431, 202004, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3144341146174328, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4739419167663359, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009808997030053676, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.170427512480856
+psutil cpu percent: 368.9
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 52, 466391), 'uptime': datetime.timedelta(0, 9185, 530000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 75, 'CPU4': 100, 'RAM': 0.44995831502019207, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 1.2, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 28.0, 'Temp GPU': 27.5, 'Temp PLL': 27.5, 'Temp thermal': 29.0, 'Power thermal': 242, 'Power TOT': 4199, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 240.00000000006634, 275713, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.314290701987911, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4738902497653442, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009807928075194114, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.170427512480856
+psutil cpu percent: 363.0
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 52, 967836), 'uptime': datetime.timedelta(0, 9185, 530000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 75, 'CPU4': 100, 'RAM': 0.44995831502019207, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 1.2, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 28.0, 'Temp GPU': 27.5, 'Temp PLL': 27.5, 'Temp thermal': 29.0, 'Power thermal': 242, 'Power TOT': 4199, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 240.00000000006634, 275713, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.314290701987911, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4738902497653442, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009807928075194114, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.170427512480856
+psutil cpu percent: 366.9
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 53, 469275), 'uptime': datetime.timedelta(0, 9186, 530000), 'CPU1': 78, 'CPU2': 99, 'CPU3': 100, 'CPU4': 100, 'RAM': 0.4499257948231788, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 28.5, 'Temp GPU': 27.5, 'Temp PLL': 27.0, 'Temp thermal': 29.0, 'Power thermal': 403, 'Power TOT': 4709, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 265.85858585864446, 275777, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.314256414732065, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4738385940281295, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009806859353292108, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.1767344597804
+psutil cpu percent: 367.0
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 53, 970763), 'uptime': datetime.timedelta(0, 9186, 530000), 'CPU1': 78, 'CPU2': 99, 'CPU3': 100, 'CPU4': 100, 'RAM': 0.4499257948231788, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 28.5, 'Temp GPU': 27.5, 'Temp PLL': 27.0, 'Temp thermal': 29.0, 'Power thermal': 403, 'Power TOT': 4709, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 265.85858585864446, 275777, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.314256414732065, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4738385940281295, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009806859353292108, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.1767344597804
+psutil cpu percent: 366.9
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 54, 472221), 'uptime': datetime.timedelta(0, 9187, 530000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 78, 'CPU4': 100, 'RAM': 0.4498646962712145, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 87.2, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 39.0, 'Temp CPU': 30.5, 'Temp GPU': 28.0, 'Temp PLL': 27.5, 'Temp thermal': 28.75, 'Power thermal': 2931, 'Power TOT': 7328, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'S', 282.4915824915583, 275777, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3142235685402277, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4737874659400545, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009805801548009201, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.1767344597804
+psutil cpu percent: 355.0
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 54, 973699), 'uptime': datetime.timedelta(0, 9187, 530000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 78, 'CPU4': 100, 'RAM': 0.4498646962712145, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 87.2, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 39.0, 'Temp CPU': 30.5, 'Temp GPU': 28.0, 'Temp PLL': 27.5, 'Temp thermal': 28.75, 'Power thermal': 2931, 'Power TOT': 7328, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'S', 282.4915824915583, 275777, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3142235685402277, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4737874659400545, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009805801548009201, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.183238499183055
+psutil cpu percent: 372.9
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 55, 475215), 'uptime': datetime.timedelta(0, 9188, 530000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 74, 'CPU4': 100, 'RAM': 0.4498952455471967, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.1, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.0, 'Temp CPU': 29.0, 'Temp GPU': 28.5, 'Temp PLL': 27.5, 'Temp thermal': 28.0, 'Power thermal': 403, 'Power TOT': 3963, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 293.95683453242026, 275843, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3140787923738058, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4737353163303005, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009804722608056213, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.183238499183055
+psutil cpu percent: 355.0
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 55, 976672), 'uptime': datetime.timedelta(0, 9188, 530000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 74, 'CPU4': 100, 'RAM': 0.4498952455471967, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.1, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.0, 'Temp CPU': 29.0, 'Temp GPU': 28.5, 'Temp PLL': 27.5, 'Temp thermal': 28.0, 'Power thermal': 403, 'Power TOT': 3963, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 293.95683453242026, 275843, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3140787923738058, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4737353163303005, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009804722608056213, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.183238499183055
+psutil cpu percent: 370.9
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 56, 478161), 'uptime': datetime.timedelta(0, 9189, 530000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 75, 'CPU4': 100, 'RAM': 0.4500479919271075, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 28.5, 'Temp GPU': 28.0, 'Temp PLL': 27.5, 'Temp thermal': 28.25, 'Power thermal': 524, 'Power TOT': 4119, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 302.76729559752584, 275843, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3140445394464195, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47368369436232505, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009803654584570136, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.183238499183055
+psutil cpu percent: 358.9
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 56, 979626), 'uptime': datetime.timedelta(0, 9189, 530000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 75, 'CPU4': 100, 'RAM': 0.4500479919271075, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 28.5, 'Temp GPU': 28.0, 'Temp PLL': 27.5, 'Temp thermal': 28.25, 'Power thermal': 524, 'Power TOT': 4119, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 302.76729559752584, 275843, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3140445394464195, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47368369436232505, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009803654584570136, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.189742538585705
+psutil cpu percent: 364.9
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 57, 481109), 'uptime': datetime.timedelta(0, 9190, 530000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 75, 'CPU4': 100, 'RAM': 0.44998492245411204, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.0, 'Temp CPU': 28.5, 'Temp GPU': 27.5, 'Temp PLL': 27.5, 'Temp thermal': 29.25, 'Power thermal': 283, 'Power TOT': 4078, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 309.49720670394834, 275909, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3140102939893572, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47363208364340426, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009802586793737236, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.189742538585705
+psutil cpu percent: 366.9
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 57, 982593), 'uptime': datetime.timedelta(0, 9190, 530000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 75, 'CPU4': 100, 'RAM': 0.44998492245411204, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.0, 'Temp CPU': 28.5, 'Temp GPU': 27.5, 'Temp PLL': 27.5, 'Temp thermal': 29.25, 'Power thermal': 283, 'Power TOT': 4078, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 309.49720670394834, 275909, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3140102939893572, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47363208364340426, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009802586793737236, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.189742538585705
+psutil cpu percent: 366.9
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 58, 484037), 'uptime': datetime.timedelta(0, 9191, 530000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 76, 'CPU4': 100, 'RAM': 0.4500765702820585, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 1.2, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.0, 'Temp CPU': 28.5, 'Temp GPU': 27.5, 'Temp PLL': 27.5, 'Temp thermal': 28.75, 'Power thermal': 202, 'Power TOT': 4435, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 315.2763819095823, 275909, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3139760560001745, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4735804841698615, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.00098015192354815, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.189742538585705
+psutil cpu percent: 362.9
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 58, 985259), 'uptime': datetime.timedelta(0, 9191, 530000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 76, 'CPU4': 100, 'RAM': 0.4500765702820585, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 1.2, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.0, 'Temp CPU': 28.5, 'Temp GPU': 27.5, 'Temp PLL': 27.5, 'Temp thermal': 28.75, 'Power thermal': 202, 'Power TOT': 4435, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 315.2763819095823, 275909, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3139760560001745, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4735804841698615, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.00098015192354815, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.189742538585705
+psutil cpu percent: 369.1
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 59, 486800), 'uptime': datetime.timedelta(0, 9192, 530000), 'CPU1': 100, 'CPU2': 79, 'CPU3': 100, 'CPU4': 100, 'RAM': 0.4500765702820585, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.0, 'Temp CPU': 28.5, 'Temp GPU': 27.5, 'Temp PLL': 27.5, 'Temp thermal': 28.75, 'Power thermal': 282, 'Power TOT': 4548, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 319.90867579911867, 275909, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3138328027560944, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47352889593802194, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009800451909726948, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.189742538585705
+psutil cpu percent: 360.9
+{'time': datetime.datetime(2024, 7, 31, 4, 45, 59, 988393), 'uptime': datetime.timedelta(0, 9192, 530000), 'CPU1': 100, 'CPU2': 79, 'CPU3': 100, 'CPU4': 100, 'RAM': 0.4500765702820585, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.0, 'Temp CPU': 28.5, 'Temp GPU': 27.5, 'Temp PLL': 27.5, 'Temp thermal': 28.75, 'Power thermal': 282, 'Power TOT': 4548, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 319.90867579911867, 275909, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3138328027560944, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47352889593802194, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009800451909726948, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.189742538585705
+psutil cpu percent: 366.8
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 0, 489980), 'uptime': datetime.timedelta(0, 9193, 540000), 'CPU1': 100, 'CPU2': 77, 'CPU3': 100, 'CPU4': 100, 'RAM': 0.44998492245411204, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 1.1, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 37.0, 'Temp CPU': 28.5, 'Temp GPU': 28.0, 'Temp PLL': 27.5, 'Temp thermal': 28.0, 'Power thermal': 1520, 'Power TOT': 6070, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 323.6820083682304, 275909, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3139076024156802, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47347731894421213, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009799384816397637, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.189742538585705
+psutil cpu percent: 356.9
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 0, 991497), 'uptime': datetime.timedelta(0, 9193, 540000), 'CPU1': 100, 'CPU2': 77, 'CPU3': 100, 'CPU4': 100, 'RAM': 0.44998492245411204, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 1.1, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 37.0, 'Temp CPU': 28.5, 'Temp GPU': 28.0, 'Temp PLL': 27.5, 'Temp thermal': 28.0, 'Power thermal': 1520, 'Power TOT': 6070, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 323.6820083682304, 275909, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3139076024156802, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47347731894421213, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009799384816397637, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.189742538585705
+psutil cpu percent: 364.9
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 1, 492969), 'uptime': datetime.timedelta(0, 9194, 540000), 'CPU1': 99, 'CPU2': 100, 'CPU3': 75, 'CPU4': 100, 'RAM': 0.4500154717300942, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 99.7, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.5, 'Temp CPU': 30.5, 'Temp GPU': 28.5, 'Temp PLL': 27.5, 'Temp thermal': 28.0, 'Power thermal': 1444, 'Power TOT': 4983, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'S', 326.71814671817424, 275909, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3137643878618765, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47342575318476027, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009798317955417653, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.189742538585705
+psutil cpu percent: 366.8
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 1, 994549), 'uptime': datetime.timedelta(0, 9194, 540000), 'CPU1': 99, 'CPU2': 100, 'CPU3': 75, 'CPU4': 100, 'RAM': 0.4500154717300942, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 99.7, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.5, 'Temp CPU': 30.5, 'Temp GPU': 28.5, 'Temp PLL': 27.5, 'Temp thermal': 28.0, 'Power thermal': 1444, 'Power TOT': 4983, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'S', 326.71814671817424, 275909, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3137643878618765, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47342575318476027, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009798317955417653, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.189742538585705
+psutil cpu percent: 364.9
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 2, 496023), 'uptime': datetime.timedelta(0, 9195, 540000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 75, 'CPU4': 100, 'RAM': 0.4500154717300942, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.0, 'Temp CPU': 30.0, 'Temp GPU': 28.0, 'Temp PLL': 28.0, 'Temp thermal': 29.0, 'Power thermal': 484, 'Power TOT': 4004, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 329.15472779371686, 275909, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3136197728493877, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4733736831674112, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009797240661596775, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.189742538585705
+psutil cpu percent: 359.0
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 2, 997263), 'uptime': datetime.timedelta(0, 9195, 540000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 75, 'CPU4': 100, 'RAM': 0.4500154717300942, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.0, 'Temp CPU': 30.0, 'Temp GPU': 28.0, 'Temp PLL': 28.0, 'Temp thermal': 29.0, 'Power thermal': 484, 'Power TOT': 4004, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 329.15472779371686, 275909, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3136197728493877, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4733736831674112, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009797240661596775, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.189742538585705
+psutil cpu percent: 369.1
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 3, 498748), 'uptime': datetime.timedelta(0, 9196, 540000), 'CPU1': 76, 'CPU2': 100, 'CPU3': 100, 'CPU4': 100, 'RAM': 0.4500135008090631, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.0, 'Temp CPU': 29.5, 'Temp GPU': 28.0, 'Temp PLL': 27.5, 'Temp thermal': 29.0, 'Power thermal': 364, 'Power TOT': 4044, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 331.48395721927074, 275909, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3135855961100256, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47343102475822135, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009796174267409433, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.189742538585705
+psutil cpu percent: 358.9
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 4, 236), 'uptime': datetime.timedelta(0, 9196, 540000), 'CPU1': 76, 'CPU2': 100, 'CPU3': 100, 'CPU4': 100, 'RAM': 0.4500135008090631, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.0, 'Temp CPU': 29.5, 'Temp GPU': 28.0, 'Temp PLL': 27.5, 'Temp thermal': 29.0, 'Power thermal': 364, 'Power TOT': 4044, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 331.48395721927074, 275909, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3135855961100256, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47343102475822135, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009796174267409433, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.189742538585705
+psutil cpu percent: 368.9
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 4, 501325), 'uptime': datetime.timedelta(0, 9197, 540000), 'CPU1': 76, 'CPU2': 100, 'CPU3': 100, 'CPU4': 100, 'RAM': 0.44989130370513447, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 28.5, 'Temp GPU': 27.5, 'Temp PLL': 27.5, 'Temp thermal': 28.25, 'Power thermal': 283, 'Power TOT': 3923, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 333.6677115987689, 275909, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'R', 1.3135528581079607, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4733799963200912, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009795118765815035, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.189742538585705
+psutil cpu percent: 363.2
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 5, 2855), 'uptime': datetime.timedelta(0, 9197, 540000), 'CPU1': 76, 'CPU2': 100, 'CPU3': 100, 'CPU4': 100, 'RAM': 0.44989130370513447, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 28.5, 'Temp GPU': 27.5, 'Temp PLL': 27.5, 'Temp thermal': 28.25, 'Power thermal': 283, 'Power TOT': 3923, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 333.6677115987689, 275909, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'R', 1.3135528581079607, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4733799963200912, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009795118765815035, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.189742538585705
+psutil cpu percent: 364.9
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 5, 504428), 'uptime': datetime.timedelta(0, 9198, 540000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 100, 'CPU4': 75, 'RAM': 0.45007361390051187, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 28.5, 'Temp GPU': 28.0, 'Temp PLL': 27.5, 'Temp thermal': 28.25, 'Power thermal': 242, 'Power TOT': 4240, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 335.3773584905833, 275909, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.31340831364038, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47332794833888886, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009794042175322061, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.189742538585705
+psutil cpu percent: 358.8
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 6, 6046), 'uptime': datetime.timedelta(0, 9198, 540000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 100, 'CPU4': 75, 'RAM': 0.45007361390051187, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 28.5, 'Temp GPU': 28.0, 'Temp PLL': 27.5, 'Temp thermal': 28.25, 'Power thermal': 242, 'Power TOT': 4240, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 335.3773584905833, 275909, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.31340831364038, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47332794833888886, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009794042175322061, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.196246577988358
+psutil cpu percent: 368.8
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 6, 507663), 'uptime': datetime.timedelta(0, 9199, 540000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 100, 'CPU4': 76, 'RAM': 0.4500125153485475, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 28.5, 'Temp GPU': 28.0, 'Temp PLL': 27.5, 'Temp thermal': 28.5, 'Power thermal': 803, 'Power TOT': 5256, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 337.1587743732796, 275975, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'R', 1.3133756018911913, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.473276942117185, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009792987133103016, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.196246577988358
+psutil cpu percent: 362.9
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 7, 9166), 'uptime': datetime.timedelta(0, 9199, 540000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 100, 'CPU4': 76, 'RAM': 0.4500125153485475, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 28.5, 'Temp GPU': 28.0, 'Temp PLL': 27.5, 'Temp thermal': 28.5, 'Power thermal': 803, 'Power TOT': 5256, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 337.1587743732796, 275975, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'R', 1.3133756018911913, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.473276942117185, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009792987133103016, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.196246577988358
+psutil cpu percent: 362.8
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 7, 510779), 'uptime': datetime.timedelta(0, 9200, 540000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 100, 'CPU4': 74, 'RAM': 0.45007361390051187, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 99.7, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 37.5, 'Temp CPU': 31.0, 'Temp GPU': 29.0, 'Temp PLL': 27.5, 'Temp thermal': 28.25, 'Power thermal': 1682, 'Power TOT': 5176, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'S', 338.57519788920155, 275975, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3133414666027623, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4732254318399741, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009791921664626683, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.196246577988358
+psutil cpu percent: 366.8
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 8, 12374), 'uptime': datetime.timedelta(0, 9200, 540000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 100, 'CPU4': 74, 'RAM': 0.45007361390051187, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 99.7, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 37.5, 'Temp CPU': 31.0, 'Temp GPU': 29.0, 'Temp PLL': 27.5, 'Temp thermal': 28.25, 'Power thermal': 1682, 'Power TOT': 5176, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'S', 338.57519788920155, 275975, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3133414666027623, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4732254318399741, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009791921664626683, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.196246577988358
+psutil cpu percent: 366.9
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 8, 513980), 'uptime': datetime.timedelta(0, 9201, 540000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 100, 'CPU4': 76, 'RAM': 0.45007164297948077, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.0, 'Temp CPU': 28.5, 'Temp GPU': 28.0, 'Temp PLL': 27.5, 'Temp thermal': 28.25, 'Power thermal': 444, 'Power TOT': 3923, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 339.7795591182513, 275975, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3131969926187808, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47317341783998734, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009790845776773069, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.196246577988358
+psutil cpu percent: 358.9
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 9, 15508), 'uptime': datetime.timedelta(0, 9201, 540000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 100, 'CPU4': 76, 'RAM': 0.45007164297948077, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.0, 'Temp CPU': 28.5, 'Temp GPU': 28.0, 'Temp PLL': 27.5, 'Temp thermal': 28.25, 'Power thermal': 444, 'Power TOT': 3923, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 339.7795591182513, 275975, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3131969926187808, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47317341783998734, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009790845776773069, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.196246577988358
+psutil cpu percent: 372.8
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 9, 517095), 'uptime': datetime.timedelta(0, 9202, 540000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 100, 'CPU4': 77, 'RAM': 0.4500410937034986, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.0, 'Temp CPU': 28.5, 'Temp GPU': 28.0, 'Temp PLL': 27.5, 'Temp thermal': 29.75, 'Power thermal': 364, 'Power TOT': 4354, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 341.03053435115925, 275975, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.313162884253698, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4731219300937321, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009789780774175864, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.196246577988358
+psutil cpu percent: 358.9
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 10, 18639), 'uptime': datetime.timedelta(0, 9202, 540000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 100, 'CPU4': 77, 'RAM': 0.4500410937034986, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.0, 'Temp CPU': 28.5, 'Temp GPU': 28.0, 'Temp PLL': 27.5, 'Temp thermal': 29.75, 'Power thermal': 364, 'Power TOT': 4354, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 341.03053435115925, 275975, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.313162884253698, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4731219300937321, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009789780774175864, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.196246577988358
+psutil cpu percent: 372.8
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 10, 520198), 'uptime': datetime.timedelta(0, 9203, 540000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 100, 'CPU4': 76, 'RAM': 0.4500410937034986, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.2, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 29.0, 'Temp GPU': 28.0, 'Temp PLL': 27.5, 'Temp thermal': 29.0, 'Power thermal': 885, 'Power TOT': 5216, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 342.076502732254, 275975, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3131287833168725, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4730704535514013, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009788716003245501, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.196246577988358
+psutil cpu percent: 356.9
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 11, 21410), 'uptime': datetime.timedelta(0, 9203, 540000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 100, 'CPU4': 76, 'RAM': 0.4500410937034986, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.2, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 29.0, 'Temp GPU': 28.0, 'Temp PLL': 27.5, 'Temp thermal': 29.0, 'Power thermal': 885, 'Power TOT': 5216, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 342.076502732254, 275975, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3131287833168725, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4730704535514013, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009788716003245501, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.196246577988358
+psutil cpu percent: 369.0
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 11, 523112), 'uptime': datetime.timedelta(0, 9204, 540000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 100, 'CPU4': 74, 'RAM': 0.4500105444275164, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 94.2, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.5, 'Temp CPU': 30.0, 'Temp GPU': 28.5, 'Temp PLL': 27.5, 'Temp thermal': 28.0, 'Power thermal': 1284, 'Power TOT': 5337, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 343.1620209059364, 275975, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3129858096491773, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47301898820933813, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009787651463906404, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.196246577988358
+psutil cpu percent: 358.8
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 12, 24797), 'uptime': datetime.timedelta(0, 9204, 540000), 'CPU1': 100, 'CPU2': 100, 'CPU3': 100, 'CPU4': 74, 'RAM': 0.4500105444275164, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 94.2, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.5, 'Temp CPU': 30.0, 'Temp GPU': 28.5, 'Temp PLL': 27.5, 'Temp thermal': 28.0, 'Power thermal': 1284, 'Power TOT': 5337, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 343.1620209059364, 275975, 249364, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3129858096491773, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47301898820933813, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009787651463906404, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.196246577988358
+psutil cpu percent: 362.8
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 12, 526379), 'uptime': datetime.timedelta(0, 9205, 550000), 'CPU1': 100, 'CPU2': 77, 'CPU3': 100, 'CPU4': 100, 'RAM': 0.45007361390051187, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 3.2, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 28.5, 'Temp GPU': 28.0, 'Temp PLL': 27.5, 'Temp thermal': 28.0, 'Power thermal': 201, 'Power TOT': 4280, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 344.01335002086876, 275975, 362196, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3129503060284669, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47296701957896364, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.000978657651417368, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.196246577988358
+psutil cpu percent: 370.8
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 13, 27979), 'uptime': datetime.timedelta(0, 9205, 550000), 'CPU1': 100, 'CPU2': 77, 'CPU3': 100, 'CPU4': 100, 'RAM': 0.45007361390051187, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 3.2, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 28.5, 'Temp GPU': 28.0, 'Temp PLL': 27.5, 'Temp thermal': 28.0, 'Power thermal': 201, 'Power TOT': 4280, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 344.01335002086876, 275975, 362196, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3129503060284669, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47296701957896364, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.000978657651417368, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.20846628838122
+psutil cpu percent: 336.9
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 13, 529300), 'uptime': datetime.timedelta(0, 9206, 550000), 'CPU1': 100, 'CPU2': 68, 'CPU3': 100, 'CPU4': 100, 'RAM': 0.5156855750260654, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.0, 'Temp CPU': 29.5, 'Temp GPU': 28.0, 'Temp PLL': 28.0, 'Temp thermal': 28.5, 'Power thermal': 120, 'Power TOT': 4790, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 344.4711538461659, 276099, 630996, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3128088121475092, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4729160911113963, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009785523079699824, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.20846628838122
+psutil cpu percent: 380.9
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 14, 31075), 'uptime': datetime.timedelta(0, 9206, 550000), 'CPU1': 100, 'CPU2': 68, 'CPU3': 100, 'CPU4': 100, 'RAM': 0.5156855750260654, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 36.0, 'Temp CPU': 29.5, 'Temp GPU': 28.0, 'Temp PLL': 28.0, 'Temp thermal': 28.5, 'Power thermal': 120, 'Power TOT': 4790, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 344.4711538461659, 276099, 630996, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3128088121475092, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4729160911113963, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.0009785523079699824, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.20846628838122
+psutil cpu percent: 392.7
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 14, 532660), 'uptime': datetime.timedelta(0, 9207, 550000), 'CPU1': 99, 'CPU2': 99, 'CPU3': 99, 'CPU4': 100, 'RAM': 0.5158639433793806, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 29.5, 'Temp GPU': 28.0, 'Temp PLL': 28.0, 'Temp thermal': 29.25, 'Power thermal': 120, 'Power TOT': 4750, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 345.9938366718144, 276099, 630996, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3127747645963335, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4728646593482124, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.000978445923468134, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.20846628838122
+psutil cpu percent: 380.7
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 15, 34470), 'uptime': datetime.timedelta(0, 9207, 550000), 'CPU1': 99, 'CPU2': 99, 'CPU3': 99, 'CPU4': 100, 'RAM': 0.5158639433793806, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 29.5, 'Temp GPU': 28.0, 'Temp PLL': 28.0, 'Temp thermal': 29.25, 'Power thermal': 120, 'Power TOT': 4750, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5643, 'nanojet', 'I', 'Graphic', 20, 'R', 345.9938366718144, 276099, 630996, 'main'], [5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3127747645963335, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.4728646593482124, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.000978445923468134, 4748, 76, 'nvargus-daemon']]
+psutil memory: 27.20846628838122
+psutil cpu percent: 388.6
+{'time': datetime.datetime(2024, 7, 31, 4, 46, 15, 536688), 'uptime': datetime.timedelta(0, 9208, 550000), 'CPU1': 96, 'CPU2': 91, 'CPU3': 91, 'CPU4': 99, 'RAM': 0.4840532779373129, 'SWAP': 0.0040482797767336254, 'EMC': 0, 'IRAM': 0.0, 'GPU': 0.0, 'APE': 25500, 'APE_MASTER': 'OFF', 'NVDEC': 'OFF', 'NVENC': 'OFF', 'NVJPG': 'OFF', 'SE': 'OFF', 'VIC03': 'OFF', 'Fan tegra_pwmfan0': 0.0, 'Temp AO': 35.5, 'Temp CPU': 28.5, 'Temp GPU': 27.5, 'Temp PLL': 27.5, 'Temp thermal': 29.25, 'Power thermal': 121, 'Power TOT': 3646, 'jetson_clocks': 'OFF', 'nvp model': 'MAXN'}
+[[5316, 'nanojet', 'I', 'Graphic', 20, 'S', 1.3126318916983462, 24831, 36096, 'compiz'], [4574, 'nanojet', 'I', 'Graphic', 20, 'S', 0.47281323877068565, 9294, 38656, 'Xorg'], [4013, 'root', 'I', 'Graphic', 20, 'S', 0.000978339562095212, 4748, 76, 'nvargus-daemon']]
+ "You are a very helpful assistant. Answer the question: ::context:: jackson was born in birkenhead on the wirral, where her father was a builder, and her mother worked in shops and as a cleaner. jackson was educated at the west kirby county grammar school for girls, and performed at the townswomen's guild drama group during her teens. she worked for two years in a branch of the boots the chemist chain before taking up a scholarship in 1954 to study at the royal academy of dramatic art. jackson made her professional stage debut in terence rattigan's separate tables in 1957 while at rada. and appeared in repertory for the next six years. her film debut was a bit part in this sporting life (1963). a member of the royal shakespeare company for four years from 1964, she originally joined for director peter brook's 'theatre of cruelty' season which included peter weiss' marat/sade (1965) in which she played an inmate of an asylum portraying charlotte corday, the assassin of marat. the production ran on broadway in 1965 and in paris (jackson appeared in the 1967 film version) and jackson also appeared as ophelia in peter hall's production of hamlet in the same year. critic penelope gilliatt thought jackson was the only ophelia she had seen who was ready to play the prince himself. the rsc's staging at the aldwych theatre of us (1966), a protest play against the vietnam war, also featured jackson, and she appeared in its film version, tell me lies. later that year, she starred in the psychological drama negatives (1968), which was not a huge financial success, but won her more good reviews. ::question:: where was she born?  Answer: "Birkenhead"
+Log start
+main: build = 2275 (a33e6a0d)
+main: built with gcc (GCC) 8.5.0 for aarch64-unknown-linux-gnu
+main: seed  = 1722415548
+ggml_init_cublas: GGML_CUDA_FORCE_MMQ:   no
+ggml_init_cublas: CUDA_USE_TENSOR_CORES: yes
+ggml_init_cublas: found 1 CUDA devices:
+  Device 0: NVIDIA Tegra X1, compute capability 5.3, VMM: no
+llama_model_loader: loaded meta data with 22 key-value pairs and 201 tensors from /home/nanojet/nano-llama/llama.cpp/TinyLlama-1.1B-Chat-v1.0-Q5_K_M.gguf (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = llama
+llama_model_loader: - kv   1:                               general.name str              = models
+llama_model_loader: - kv   2:                       llama.context_length u32              = 2048
+llama_model_loader: - kv   3:                     llama.embedding_length u32              = 2048
+llama_model_loader: - kv   4:                          llama.block_count u32              = 22
+llama_model_loader: - kv   5:                  llama.feed_forward_length u32              = 5632
+llama_model_loader: - kv   6:                 llama.rope.dimension_count u32              = 64
+llama_model_loader: - kv   7:                 llama.attention.head_count u32              = 32
+llama_model_loader: - kv   8:              llama.attention.head_count_kv u32              = 4
+llama_model_loader: - kv   9:     llama.attention.layer_norm_rms_epsilon f32              = 0.000010
+llama_model_loader: - kv  10:                       llama.rope.freq_base f32              = 10000.000000
+llama_model_loader: - kv  11:                          general.file_type u32              = 17
+llama_model_loader: - kv  12:                       tokenizer.ggml.model str              = llama
+llama_model_loader: - kv  13:                      tokenizer.ggml.tokens arr[str,32000]   = ["<unk>", "<s>", "</s>", "<0x00>", "<...
+llama_model_loader: - kv  14:                      tokenizer.ggml.scores arr[f32,32000]   = [0.000000, 0.000000, 0.000000, 0.0000...
+llama_model_loader: - kv  15:                  tokenizer.ggml.token_type arr[i32,32000]   = [2, 3, 3, 6, 6, 6, 6, 6, 6, 6, 6, 6, ...
+llama_model_loader: - kv  16:                tokenizer.ggml.bos_token_id u32              = 1
+llama_model_loader: - kv  17:                tokenizer.ggml.eos_token_id u32              = 2
+llama_model_loader: - kv  18:            tokenizer.ggml.unknown_token_id u32              = 0
+llama_model_loader: - kv  19:            tokenizer.ggml.padding_token_id u32              = 2
+llama_model_loader: - kv  20:                    tokenizer.chat_template str              = {% for message in messages %}\n{% if m...
+llama_model_loader: - kv  21:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:   45 tensors
+llama_model_loader: - type q5_K:  135 tensors
+llama_model_loader: - type q6_K:   21 tensors
+llm_load_vocab: special tokens definition check successful ( 259/32000 ).
+llm_load_print_meta: format           = GGUF V3 (latest)
+llm_load_print_meta: arch             = llama
+llm_load_print_meta: vocab type       = SPM
+llm_load_print_meta: n_vocab          = 32000
+llm_load_print_meta: n_merges         = 0
+llm_load_print_meta: n_ctx_train      = 2048
+llm_load_print_meta: n_embd           = 2048
+llm_load_print_meta: n_head           = 32
+llm_load_print_meta: n_head_kv        = 4
+llm_load_print_meta: n_layer          = 22
+llm_load_print_meta: n_rot            = 64
+llm_load_print_meta: n_embd_head_k    = 64
+llm_load_print_meta: n_embd_head_v    = 64
+llm_load_print_meta: n_gqa            = 8
+llm_load_print_meta: n_embd_k_gqa     = 256
+llm_load_print_meta: n_embd_v_gqa     = 256
+llm_load_print_meta: f_norm_eps       = 0.0e+00
+llm_load_print_meta: f_norm_rms_eps   = 1.0e-05
+llm_load_print_meta: f_clamp_kqv      = 0.0e+00
+llm_load_print_meta: f_max_alibi_bias = 0.0e+00
+llm_load_print_meta: n_ff             = 5632
+llm_load_print_meta: n_expert         = 0
+llm_load_print_meta: n_expert_used    = 0
+llm_load_print_meta: pooling type     = 0
+llm_load_print_meta: rope type        = 0
+llm_load_print_meta: rope scaling     = linear
+llm_load_print_meta: freq_base_train  = 10000.0
+llm_load_print_meta: freq_scale_train = 1
+llm_load_print_meta: n_yarn_orig_ctx  = 2048
+llm_load_print_meta: rope_finetuned   = unknown
+llm_load_print_meta: model type       = 1B
+llm_load_print_meta: model ftype      = Q5_K - Medium
+llm_load_print_meta: model params     = 1.10 B
+llm_load_print_meta: model size       = 745.11 MiB (5.68 BPW) 
+llm_load_print_meta: general.name     = models
+llm_load_print_meta: BOS token        = 1 '<s>'
+llm_load_print_meta: EOS token        = 2 '</s>'
+llm_load_print_meta: UNK token        = 0 '<unk>'
+llm_load_print_meta: PAD token        = 2 '</s>'
+llm_load_print_meta: LF token         = 13 '<0x0A>'
+llm_load_tensors: ggml ctx size =    0.08 MiB
+llm_load_tensors: offloading 0 repeating layers to GPU
+llm_load_tensors: offloaded 0/23 layers to GPU
+llm_load_tensors:        CPU buffer size =   745.11 MiB
+......................................................................................
+llama_new_context_with_model: n_ctx      = 512
+llama_new_context_with_model: freq_base  = 10000.0
+llama_new_context_with_model: freq_scale = 1
+llama_kv_cache_init:  CUDA_Host KV buffer size =    11.00 MiB
+llama_new_context_with_model: KV self size  =   11.00 MiB, K (f16):    5.50 MiB, V (f16):    5.50 MiB
+llama_new_context_with_model:  CUDA_Host input buffer size   =     6.01 MiB
+llama_new_context_with_model:  CUDA_Host compute buffer size =    66.50 MiB
+llama_new_context_with_model: graph splits (measure): 1
+
+system_info: n_threads = 4 / 4 | AVX = 0 | AVX_VNNI = 0 | AVX2 = 0 | AVX512 = 0 | AVX512_VBMI = 0 | AVX512_VNNI = 0 | FMA = 0 | NEON = 1 | ARM_FMA = 1 | F16C = 0 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 1 | SSE3 = 0 | SSSE3 = 0 | VSX = 0 | MATMUL_INT8 = 0 | 
+sampling: 
+	repeat_last_n = 64, repeat_penalty = 1.100, frequency_penalty = 0.000, presence_penalty = 0.000
+	top_k = 40, tfs_z = 1.000, top_p = 0.950, min_p = 0.050, typical_p = 1.000, temp = 0.800
+	mirostat = 0, mirostat_lr = 0.100, mirostat_ent = 5.000
+sampling order: 
+CFG -> Penalties -> top_k -> tfs_z -> typical_p -> top_p -> min_p -> temperature 
+generate: n_ctx = 512, n_batch = 512, n_predict = 50, n_keep = 1
+
+
+ [end of text]
+
+llama_print_timings:        load time =     771.46 ms
+llama_print_timings:      sample time =       4.83 ms /     6 runs   (    0.80 ms per token,  1242.75 tokens per second)
+llama_print_timings: prompt eval time =   22168.56 ms /   439 tokens (   50.50 ms per token,    19.80 tokens per second)
+llama_print_timings:        eval time =    2290.48 ms /     5 runs   (  458.10 ms per token,     2.18 tokens per second)
+llama_print_timings:       total time =   24473.01 ms /   444 tokens
+Log end
+
+Time taken is: 27296.252965927124

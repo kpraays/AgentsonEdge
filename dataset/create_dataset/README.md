@@ -1,0 +1,2 @@
+## What was done?
+Scripts were made to extract 100 queries from each of the source datasets as mentioned in the main [readme](README.md). Use these to get queries defined for the workload as [dataset](../workload-queries).

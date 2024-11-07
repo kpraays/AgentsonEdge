@@ -1,0 +1,138 @@
+Workload
+
+- You can get average token length per workload from logs.
+- You can say that since contextual prompts were longer, you picked them and ran queries at different input length to check changes in memory. (successively longer input but same output length)
+
+There are two primary latency metrics of interest for LLM
+serving: TTFT (time-to-first-token) and TBT (time-betweentokens). For a given request, TTFT measures the latency of
+generating the first output token from the moment a request
+arrives in the system. This metric reflects the initial responsiveness of the model. TBT on the other hand measures the
+interval between the generation of consecutive output tokens
+of a request, and affects the overall perceived fluidity of the
+response.
+(https://www.usenix.org/system/files/osdi24-agrawal.pdf)
+
+
+TTFT: across workloads
+longer prompt = bigger prefill - so longer time to first token (fast because of GPU parallelization)
+smaller input prompt, smaller TTFT
+
+
+TBT: across workloads
+
+Total time per query vs total number of tokens: workload agnostic
+
+### GPU/ CPU memory usage
+CPU memory usage is similar across workload even though queries may be of different length
+Why? Is it because the embeddings are kept in CPU memory and it is similar regardless of workload?
+
+
+why sightly higher for contextual? (is it because the inputs are longer) then how does it influence the change in CPU memory used? similar for task-oriented which is also longer than other queries - slight fluctuations? why is that?
+
+
+Contextual workload has clearly higher memory usage than others in GPU? why is that?
+Similar there is slight elevation in task-oriented workload too for GPU memory compared to the rest?
+Is it because of the longer input length?
+KV cache memory maninly bottlenecked by input not output
+
+Why are there drops in GPU memory needed for complex and simple queries but not in conversational which is constantly occupying space? Is it due to difference in workload characteristics?
+
+Why did task-oriented workload take longer to run than others? or why was simple workload quicker than others?
+Why do different types of workloads take more or less time to execute (given that you have the same number of queries in each workload)?
+
+Generally, 1GB loaded in CPU mem atleast and 580 MB in GPU mem atleast - why is that?
+Some calculation to work it out??
+
+### CPU/ GPU usage
+
+why is the average CPU usage for the conversational workloads lower than other ones? (simple workload comes close??)
+
+why is there so much variation in the GPU usage for complex workloads and simple workloads?
+
+What does full GPU usage for contextual and conversational workload mean here? Does it mean that the GPU is being fully utilised or is it the bottleneck?
+
+Why does task-oriented workload do not occupy GPU as fully as contextual and conversational workloads?
+
+############
+Granular (which queries to pick and why??) Median Token Length
+
+Then only recorded measurements after a few runs for warm up.
+
+Does this mean longer input length means greater GPU memory used? (check by running the queries of same workload with successively longer input length and same number of output tokens)
+
+(output length=50)
+30551,task-oriented_98,6098.84,387.17,31743.93,156.0,90.0
+29966,task-oriented_93,9377.78,404.11,36142.38,223.0,157.0
+30629,task-oriented_99,11574.33,428.06,34767.13,278.0,224.0
+23440,task-oriented_32,16664.12,451.47,61496.66,433.0,334.0
+
+
+prompt length close - output token same = 50 - Total time taken - similar/ greater for contextual
+23440,task-oriented_32,16664.12,451.47,61496.66,433.0,334.0
+8548,contextual_44,18346.21,462.98,41106.2,422.0,373.0
+
+
+task_oriented_32
+"This is a bot helping users to complete multiple tasks, e.g. find a restaurant, find a taxi, and find a hotel. Given the dialog context, please generate a relevant system response for the user. : <USER> Find me a Mediterranean restaurant in the centre of Cambridge. <USER> Yes, please book that for me. <USER> I need the table booked for monday at 12:15 for 3 people. Thanks. Also could i get the ref #? <USER> Great I also am looking for a hotel to stay at that includes free parking. What's available? <USER> Actually, I'm looking for a hotel and in the same price range as the restaurant. <USER> Yes I need a hotel in the same price range as the restaurant with free parking. <USER> Can you give me the first one and the star rating for it please? It has to have free parking. <USER> Does the Express by Holiday Inn have free parking? <USER> Yes also I will need a taxi to get me between the hotel and the restaurant. I will need a contact number and car type with the booking. <USER> I'd just like to book a taxi between the two. I'd like to get to the restaurant by my reservation time and I'll need the contact number and car type please. <USER> What time will the taxi arrive? <USER> That will be fine.  <BOT>: Great! Based on the provided information, following are the steps: "First, generate a response based on the dialog context and user inputs. Please note that this is not an actual conversation but just an example to illustrate how the bot can respond to multiple tasks." "Step 1: Collect the context information from the dialog context. This includes the user's input (e.g., restaurant name, date) and any other relevant information in the dialog context. For example, if the dialog context contains a reference number for the reservation, we can use that to
+
+
+contextual_44
+"You are a very helpful assistant. Answer the question: ::context:: by the beginning of 2004 the band announced their first greatest hits compilation was going to be released, a cover of nick kamen's "i promised myself" became the last single from the band. the band shot the video for the song in march 2004, and was premiered on ztv in early april, the song went to international radios on late april/may becoming the last hit of the band. the album was a compilation of thirteen singles, which each one of them made the top twenty in at least one country and three new tracks, two of them were written by the band members. promotion for the album was slow, the band did a few shows in sweden and international interviews to magazines. many were reporting the band was splitting up after six years in the pop world. the band quickly denied the rumours on their official website. the single became another top-two hit for the band in sweden, it became one of the band's biggest hits in south america (especially in argentina) and the album became the band's first to not make the top ten in their homeland while it brought back the attention to them in other countries in latin america and eastern europe. the album was just released in selected european countries, asia and latin america. it did not receive a u.s. release, although, when mca records went bankrupt and was absorbed by both geffen and interscope, the former had plans to release it in november, ready for the christmas sales, but plans were scrapped when the band finished their tour and dhani released his first solo single. ::question:: why did they release this  Answer: "You are a very helpful assistant. Answer the question: by the beginning of 2004 the band announced their first greatest hits compilation was going to be released, a cover of nick kamen's "i promised myself" became the last single
+
+if the number of output tokens greater then greater GPU memory --> take one of those queries and successively increase the output length (keep the input tokens fixed but at a higher number)
+stress the generation - increase the output prompt length (short input)
+conversational  conversational_10           43.0
+I know, I know I really like you too. But we-we cant date. Its against the rules. Its forbidden.
+
+After warmup, increased expected output length as ["10", "10", "50", "120", "230", "400"]
+ 
+
+CPU/ GPU memory usage
+why is the CPU memory use the same for all query types, but the GPU memory usage is different? Here, you need to name all the components that take space (in CPU memory and GPU memory respectively) for each query type.
+
+the CPU use pattern for the "complex" workload is different than the other ones. Why?
+is it because it was loaded first?
+
+
+the task-oriented and contextual query examples have 2 GPU usage spikes (at the beginning and at the end), whereas the other types of queries only spike the GPU usage at the beginning of the query. Why?
+
+
+
+Category        query_id          prompt_tokens     Category_prompt_tokens_mean
+complex         complex_13           31                  32
+contextual      contextual_40        438                 436
+conversational  conversational_10    43                  43
+simple          simple_00            29                  29
+task-oriented   task-oriented_04     190                 189
+
+
+
+category                 id  prompt_tokens
+complex         complex_13           31.0
+ "You are a helpful assistant. Give a short answer. Query: who do states and governments often work in lockstep with? Answer: "The United States government, which is composed of the president, vice-president, congressmen, senators, and other officials at various levels."
+
+
+
+
+contextual      contextual_40          438.0
+ "You are a very helpful assistant. Answer the question: ::context:: kinison acquired much of his material from his difficult first two marriages, to patricia adkins (1975-1980) and terry marze (1981-1989). he began a relationship with dancer malika souiri toward the end of his marriage with marze. in 1990, souiri alleged she was raped by a man kinison had hired as a bodyguard that same day, while kinison was asleep in the house. the bodyguard stated that the sex was consensual; the jury deadlocked in the subsequent trial and the charges were later dropped. on april 4, 1992, six days before his death, kinison married souiri at the candlelight chapel in las vegas. they honeymooned in hawaii for five days before returning home to los angeles on april 10 to prepare for a show that night at the riverside resort hotel and casino in laughlin, nevada. souiri sued kinison's brother bill in 1995 for allegedly defaming her in his book brother sam: the short spectacular life of sam kinison, and then again in 2009 for allegedly forging sam's will. in february 2011, the toronto sun reported that kinison had fathered a child with the wife of his best friend and opening act, carl labove, who had been paying child support for the girl for nearly 13 years. labove filed legal papers claiming the girl was kinison's, and dna tests taken from kinison's brother bill show a 99.8% likelihood that kinison was the father of the unnamed woman, who was 21 at the time of the toronto sun story, and excluded labove as her father. ::question:: who else did he marry?  Answer: "You are correct. Kinison married dancer Malika Souiri in 1990 and she gave birth to a daughter, named Emily, in 2004. Sam had two children from his first marriage: son, Andrew
+
+
+
+conversational  conversational_10           43.0
+ "You are a helpful assistant.> User: I know, I know I really like you too. But we-we cant date. Its against the rules. Its forbidden.? Assistant: "We must be careful what we say to each other. We may forget our words and not mean it when we say them. To have a good relationship, we need to keep in mind that even though
+
+
+simple          simple_00           29.0
+"You are a helpful assistant who knows everything. Give a short answer. Query: what is i2c i/f Answer: "I2C interface"
+"You are a good friend who wants to be friends forever. Give a short answer."
+
+task-oriented   task-oriented_04          190.0
+ "This is a bot helping users to find a restaurant and book a train ticket. Given the dialog context, please generate a relevant system response for the user. : <USER> Are there trains arriving in Cambridge before 18:45 on Sunday? <USER> I'm leaving Bishops stortford. <USER> Can I get the price, travel time, and departure time of the one arriving at 18:07? <USER> Not at this time, but I am also looking for a european food restaurant in the expensive price range. Can you help with that? <USER> In the centre of town please. <USER> Yes, please. It will be just me and I'd like to eat at 21:00 on the same day as my train.  <BOT>: Great! Based on the provided information, following are the steps: "I need to know if trains arrive in Cambridge before 18:45 on Sunday, what is the price, travel time and departure time for one arriving at 18:07, and what is the location of a european food restaurant that's expensive and located in the centre of town that will satisfy my hunger after my train."
+Certainly! Based on the provided information, "I need to know if trains arrive in Cambridge before 18:4
+
+
+
+
+
+
